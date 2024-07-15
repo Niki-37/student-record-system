@@ -1,2 +1,0 @@
-- implement getters and setters for Student.cpp, Course.cpp and ContactInfo.cpp
-- implement crud operations for StudentCRUD.cpp, CourseCRUD.cpp and ContactInfoCRUD.cpp
