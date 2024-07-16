@@ -15,7 +15,6 @@ class Course {
            const std::string& description, int credit_hours,
            const std::string& professor, double fee);
 
-    // getters
     std::string getCourseName() const;
     int getIdOfCourse() const;
     std::string getDescription() const;
@@ -23,7 +22,6 @@ class Course {
     std::string getProfessor() const;
     double getFee() const;
 
-    // setters
     void setCourseName(const std::string& course_name);
     void setDescription(const std::string& description);
     void setCreditHours(int credit_hours);

@@ -14,14 +14,12 @@ class ContactInfo {
                 const std::string& email, const std::string& phone_number,
                 const std::string& second_phone_number);
 
-    // getters
     int getIdOfContactinfo() const;
     std::string getAddress() const;
     std::string getEmail() const;
     std::string getPhoneNumber() const;
     std::string getSecondPhoneNumber() const;
 
-    // setters
     void setIdOfContactinfo(const std::string& address);
     void setEmail(const std::string& email);
     void setPhoneNumber(const std::string& phone_number);

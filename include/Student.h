@@ -21,7 +21,6 @@ class Student {
             int year_of_study, double GPA, const ContactInfo& contact_info,
             const std::vector<Course>& courses = {});
 
-    // getters
     std::string getName() const;
     int getIdOfStudent() const;
     std::string getDOB() const;
@@ -30,12 +29,10 @@ class Student {
     ContactInfo getContactInfo() const;
     std::vector<Course> getCourses() const;
 
-    // setters
     void setName(const std::string& name);
     void setDOB(const std::string& DOB);
     void setYearOfStudy(int year_of_study);
     void setGPA(double GPA);
     void setContactInfo(const ContactInfo& contact_info);
     void setCourses(const std::vector<Course>& courses);
-
 };
