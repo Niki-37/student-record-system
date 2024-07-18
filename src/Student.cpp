@@ -13,7 +13,6 @@ Student::Student(const std::string& name, int id_of_student,
       courses{courses} {
 }
 
-// getters
 int Student::getIdOfStudent() const {
     return id_of_student;
 }
@@ -42,7 +41,6 @@ std::vector<Course> Student::getCourses() const {
     return courses;
 }
 
-// setters
 void Student::setName(const std::string& name) {
     this->name = name;
 }
